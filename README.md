@@ -2,11 +2,11 @@
 
 2 . Delete any Previous Venv. folder(virtual Environment folder) if initially seen in the main file.
 
-2. Then open the folder in VS Code.
+3. Then open the folder in VS Code.
 
-3. Install Python 3.12 on the device with the run pathway while installing(https://www.python.org/downloads/release/python-3120/)
+4. Install Python 3.12 on the device with the run pathway while installing(https://www.python.org/downloads/release/python-3120/)
 
-4. Then run the following commands chronologically, opening a new Terminal: 
+5. Then run the following commands chronologically, opening a new Terminal: 
 
 1. py -3.12 -m venv .venv
 2. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
@@ -19,4 +19,4 @@
 9. python seed.py
 10. streamlit run app.py
 
-Please run these commands carefully and in chronological order. Otherwise, it will not work properly.
+Please run these commands carefully and in chronological order. Otherwise, it will not work.
